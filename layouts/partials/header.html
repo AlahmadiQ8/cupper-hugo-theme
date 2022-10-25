@@ -9,8 +9,8 @@
         {{ with .Site.Params.navTitleText }}
           <h1>{{ . }}</h1>
         {{ else }}
-          <img 
-            src="{{ "images/logo.svg" | relURL }}" 
+          <img
+            src="{{ "images/logo.jpg" | relURL }}"
             alt="{{ .Site.Params.logoAlt | default "Logo" }}"
           >
         {{ end }}
